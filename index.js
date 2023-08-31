@@ -90,6 +90,15 @@ function modalCongo(lovely){
   my_modal_5.showModal()
 }
 
+
+
+
+
+function lol(){
+ const qp = document.getElementById('poi')
+ qp.parentNode.removeChild(qp)
+
+}
 // users()
 
 

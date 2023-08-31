@@ -12,12 +12,12 @@
 
 <body>
     <header>
-        <h2 class="text-2xl ml-7 mt-4">KB Phone Shop</h2>
+        <h2 class="text-2xl ml-7 mt-4 text-orange-700 font-bold">KB MOBILE <span class="text-amber-500">SHOP</span></h2>
     </header>
     <main class="container mx-auto mt-8">
         <section class="bg-gray-100 p-4 m-4">
             <input id="search" type="text" placeholder="Search..." class="input input-bordered w-full max-w-xs" />
-            <button onclick="button()" class="btn btn-accent">Search</button>
+            <button onclick="button(); lol()" class="btn btn-accent">Search</button>
         </section>
 
         <section>
@@ -53,8 +53,35 @@
         </dialog>
 
 
+                <!-- Slide add -->
+            <div id="poi">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img src="img/online-shopping-store-with-mobile-application-digital-marketing-and-sale-banner-background-free-vector.jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="img/download (2).jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>                   
+                  </div>
+            </div>
     </main>
     <footer></footer>
+
 
 
 
